@@ -1,11 +1,5 @@
-// create a variable for alarm and sound
-let alarmTime = null;
-let alarmTimeout = null;
 
-var clockUser=document.querySelector(".clockButton1").Onclick();{
-const alarmSound = new Audio('./sound/Tic-Tac-Mechanical-Alarm-Clock-2-chosic.com_.mp3');
-alarmSound.play();
-}
+
 
 function updateClock(){
     const now = new Date();
